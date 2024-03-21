@@ -6,18 +6,20 @@ import { cn } from "@/utils/cn";
 
 const BackgroundBoxes = () => {
   return (
-    <div className="min-h-screen relative w-[100vw] overflow-hidden bg-slate-900 flex flex-col items-center justify-center">
-      <div className="absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
-      <Boxes />
-      <div
-        className={cn(
-          "md:text-4xl text-xl flex flex-col items-center text-white mx-40 relative z-20"
-        )}
-      >
-        <TypeWriterSkill />
-        <TextGenerate />
+    <main className="flex min-h-screen flex-col items-center justify-between">
+      <div className="min-h-screen relative w-[100vw] overflow-hidden bg-slate-900 flex flex-col items-center justify-center">
+        <div className="absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
+        <Boxes />
+        <div
+          className={cn(
+            "md:text-4xl text-xl flex flex-col items-center text-white mt-24 mx-40 relative z-20"
+          )}
+        >
+          <TypeWriterSkill />
+          <TextGenerate />
+        </div>
       </div>
-    </div>
+    </main>
   );
 };
 

@@ -1,4 +1,9 @@
 import { WavyBackground } from "@/components/ui/wavy-background";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Assignment - Home",
+};
 
 export default function Home() {
   return (

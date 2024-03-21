@@ -1,7 +1,7 @@
 import ContactFoam from "@/components/ContactFoam";
 import { Metadata } from "next";
 
-export const matadata: Metadata = {
+export const metadata: Metadata = {
   title: "Assignment - Contact",
 };
 

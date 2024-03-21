@@ -40,11 +40,13 @@ const CardHoverEffect = () => {
     },
   ];
   return (
-    <div className="min-h-screen">
-      <div className="mt-44">
-        <HoverEffect items={projects} />
+    <main className="min-h-screen w-full dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center text-white">
+      <div className="min-h-screen">
+        <div className="mt-44">
+          <HoverEffect items={projects} />
+        </div>
       </div>
-    </div>
+    </main>
   );
 };
 
